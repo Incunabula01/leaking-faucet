@@ -1,0 +1,1 @@
+"use strict";$("#faucetCarousel").carousel({interval:!1});

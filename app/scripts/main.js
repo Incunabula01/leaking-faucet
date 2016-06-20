@@ -1,3 +1,0 @@
-$('#faucetCarousel').carousel({
-	interval: false
-});
