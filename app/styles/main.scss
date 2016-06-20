@@ -52,26 +52,39 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   border-bottom: 1px solid #e5e5e5;
+  text-align: center;
   h1{
     text-align: center;
+    margin-bottom: 2rem;
   }
   p{
     text-align: left;
   }
-  .btn {
+  a{
     font-size: 21px;
-    text-align: center;
-    padding: 14px 24px;
+    margin: 2rem auto;
   }
+}
+
+ul{
+  @extend p;
 }
 
 .card{
   -webkit-box-shadow: 0px 4px 0px 1px rgba(51,51,3,0.8);
   -moz-box-shadow: 0px 4px 0px 1px rgba(51,51,3,0.8);
   box-shadow: 0px 4px 0px 1px rgba(51,51,3,0.8);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
   background-color: #fff;
   margin: 2rem;
-  padding: 2rem;
+  padding: 3rem;
+  img{
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
 /* Supporting marketing content */
@@ -104,5 +117,15 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+  .card{
+    background-color: #fff;
+    margin: 2rem;
+    padding: 3rem;
+    img{
+      max-width: 400px;
+      height: auto;
+      margin: 0 auto;
+    }
   }
 }
